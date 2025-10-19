@@ -9,7 +9,7 @@ config();
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY!;
 
-const URL_SELLER = "http://localhost:4023/mint";
+const URL_SELLER = "http://localhost:4021/mint";
 
 async function main() {
   const signer = await createSigner("base-sepolia", PRIVATE_KEY);
